@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+}
+
+.custom {
+  background-color: #70cbf4;
+}
+
+.logo {
+  height: 60px;
+  width: 50x;
+}
+
+.header-links {
+  padding-right: 20px;
+  color: #092a75;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.header-links:hover {
+  padding-right: 20px;
+  color: #092a75;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: underline;
+  scale: 1.1;
+}
+
+.jumbotron::before {
+  content: '';
+  position: absolute;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.jumbotron {
+  position: relative;
+  margin-top: 50px;
+  object-fit: cover;
+  padding: 0;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.jumbotron img {
+  position: relative;
+  height: 300px;
+  width: 1000px;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 50px;
+  background-color: #aad700;
+  transform: translateY(-3px);
+  opacity: 100%;
+  padding-top: 5px;
+}
+
+.hero-header {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.content {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin-top: 40px;
+  padding-top: 15px;
+  text-align: center;
+}
+.dotw {
+  width: 100%;
+  background-color: #e2f3fe;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-left: 100px;
+  text-align: center;
+  box-shadow: 5px 5px #888888;
+}
+
+.day-deal {
+  width: 100%;
+  background-color: #e2f3fe;
+  margin-top: 50px;
+  padding-top: 15px;
+  text-align: center;
+  box-shadow: 5px 5px #888888;
+}
+
+h1 {
+  border-bottom: 4px solid black;
+  width: 90%;
+  margin-left: 25px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.dates {
+  font-size: 0.9rem;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card-deals-header {
+  color: red;
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card-welcome-summer-header {
+  color: rgb(55, 3, 240);
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.summer {
+  width: 100%;
+  background-color: #e2f3fe;
+  padding-top: 15px;
+  padding-left: 10px;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 5px 5px #888888;
+}
+
+.dotd {
+  width: 100%;
+  height: 400px;
+}
+
+.dotd-desc {
+  padding: 20px;
+  margin: 0;
+}
+
+.dotd-price {
+  font-size: 6rem;
+  color: Red;
+  font-weight: 700;
+  margin: 0;
+}
+
+.pp {
+  font-size: 1rem;
+  margin: 0;
+  color: black;
+  font-weight: 500;
+}
+
+.card-body-dotd {
+  height: 400px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #70cbf4;
+  padding-top: 10px;
+}
+
+.footer p {
+  cursor: pointer;
+  color: #233f4c;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.show-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.hot-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
