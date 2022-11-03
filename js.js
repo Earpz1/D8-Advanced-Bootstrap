@@ -1,5 +1,8 @@
 const toggleHotDeals = function () {
   const elements = document.querySelectorAll('.hot-icon')
+  const elementsdotd = document.querySelector('.hot-icon-dotd')
+
+  elementsdotd.classList.toggle('d-none')
 
   for (let i = 0; i < elements.length; i++) {
     elements[i].classList.toggle('d-none')

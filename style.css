@@ -147,6 +147,7 @@ h2 {
 .dotd {
   width: 100%;
   height: 400px;
+  margin-left: 10px;
 }
 
 .dotd-desc {
@@ -196,4 +197,12 @@ h2 {
   position: absolute;
   width: 50px;
   height: 50px;
+}
+
+.hot-icon-dotd {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  width: 200px;
+  height: 200px;
 }
